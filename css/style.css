@@ -779,9 +779,9 @@ body .btn-eight {
   font-family: 'gorditamedium';
   font-size: 17px;
   color: #fff;
-  line-height: 48px;
+  line-height: 40px;
   border-radius: 5px;
-  padding: 0 15px;
+  padding: 0 35px;
   background: #7a4aff;
   position: relative;
   z-index: 1;
@@ -1131,7 +1131,7 @@ body .btn-eight:hover {
   color: #fff;
   background: #7a4aff;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: all 0.3s ease-in-out;
   margin-left: 20px;
 }
@@ -1444,6 +1444,7 @@ body .btn-eight:hover {
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-two {
   z-index: 3;
+  background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, rgb(242 237 255) 100%);
 }
 
 .block-style-two ul.list-item li {
@@ -1716,7 +1717,7 @@ body .btn-eight:hover {
 }
 
 .counter-section-one .inner-container.style-two {
-  padding: 200px 0 20px;
+  padding: 20px 0 20px;
 }
 
 .counter-section-one .inner-container.style-two .shape-three {
@@ -2472,10 +2473,9 @@ body .btn-eight:hover {
   font-size: 24px;
   margin-bottom: 20px;
   color: black;
-  border-bottom: 3px double;
   display: inline-block;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 2px 8px;
 }
 
@@ -4806,10 +4806,10 @@ h2 {
 .hero-banner-five .hero-heading {
   font-family: 'gorditamedium';
   /* font-family: 'gorditamedium'; */
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   line-height: 1.1;
   color: white;
-  padding-top: 400px;
+  padding-top: 20vh;
   padding-bottom: 30px;
 }
 
@@ -5365,14 +5365,15 @@ h2 {
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Twenty One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-twentyOne {
   position: relative;
-  background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
+  background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, rgb(242 237 255) 100%);
 }
 
-.fancy-feature-twentyOne .illustration-holder {
-  position: absolute;
+.fancy-feature-twentyOne .illustration-holder img{
+  /* position: absolute;
   left: 7%;
-  top: 0;
-  width: 32.7%;
+  top: 100px;
+  width: 39%; */
+  border-radius: 20px;
 }
 
 .fancy-feature-twentyOne .shape-one {
@@ -5485,11 +5486,11 @@ h2 {
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Inner Banner ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .theme-inner-banner {
   /* background: #F6FCFF; */
-  background: linear-gradient(0deg, #ff2a000f 100%, rgba(248, 253, 255, 0) 0%);
+  background: #f2eefe;
 
   position: relative;
   z-index: 1;
-  padding: 150px 0 115px;
+  padding: 200px 0 115px;
   overflow: hidden;
 }
 
@@ -6779,7 +6780,7 @@ h2 {
 
 /*^^^^^^^^^^^^^^^^^^^^^ Contact Section One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .contact-part {
-  background: url("../images/assets/contact.png");
+  background: url("../images/assets/contactbg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -6917,7 +6918,7 @@ h2 {
   /* height: 60px; */
   border: 1px solid rgba(0, 40, 78, 0.15);
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 8px 20px;
 }
 
 .form-style-one form textarea {

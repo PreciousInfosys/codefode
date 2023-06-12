@@ -14,8 +14,10 @@
 /*(min-width: 992px)*/
 
 @media (min-width: 1400px) {
-
-
+  .hero-banner-five .hero-heading {
+    padding-top: 40vh;
+    font-size: 3.5rem;
+  }
 }
  /*(min-width: 1400px)*/
 /*Grid xl Start*/
@@ -294,7 +296,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   .theme-menu-four .navbar {margin-left: 60px;}
   .theme-menu-one .navbar {margin-left: 50px;}
-  .hero-banner-five .hero-heading,.hero-banner-two .hero-heading {font-size: 65px;}
+  .hero-banner-five .hero-heading,.hero-banner-two .hero-heading {font-size: 45px; padding-top: 150px;}
   .hero-banner-three .hero-heading {font-size: 60px; line-height: 1.16em;}
   .hero-banner-four .hero-heading {font-size: 52px;}
   .hero-banner-five .illustration-holder:before {width: 750px; height: 750px;}
