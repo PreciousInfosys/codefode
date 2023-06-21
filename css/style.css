@@ -5493,6 +5493,7 @@ h2 {
 .theme-basic-footer.footer-style-four .bottom-footer .footer-nav a:hover {
   border-bottom: 2px solid white;
   color: white;
+  height: 19px;
 }
 
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Inner Banner ^^^^^^^^^^^^^^^^^^^^^^^^*/
